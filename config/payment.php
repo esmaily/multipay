@@ -408,6 +408,14 @@ return [
             'description' => 'payment using Bitpay',
             'currency' => 'R', //Can be R, T (Rial, Toman)
         ],
+        'sama' => [
+            'apiPurchaseUrl' => 'https://app.sama.ir/api/stores/services/deposits/guaranteed/',
+            'verifyApiUrl' => 'https://app.sama.ir/api/stores/services/deposits/guaranteed/payment/verify/',
+            'authToken' => '',
+            'callbackUrl' => '',
+            'description' => 'sama using Bitpay',
+            'currency' => 'R', //Can be R, T (Rial, Toman)
+        ],
     ],
 
     /*
@@ -436,7 +444,7 @@ return [
         'omidpay' => \Shetabit\Multipay\Drivers\Omidpay\Omidpay::class,
         'parsian' => \Shetabit\Multipay\Drivers\Parsian\Parsian::class,
         'pasargad' => \Shetabit\Multipay\Drivers\Pasargad\Pasargad::class,
-        'payir' => \Shetabit\Multipay\Drivers\Payir\Payir::class,
+        'payir' => \Shetabit\Multipay\Drivers\Payir\Sama::class,
         'paypal' => \Shetabit\Multipay\Drivers\Paypal\Paypal::class,
         'payping' => \Shetabit\Multipay\Drivers\Payping\Payping::class,
         'paystar' => \Shetabit\Multipay\Drivers\Paystar\Paystar::class,
