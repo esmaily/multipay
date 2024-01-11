@@ -75,6 +75,7 @@
 - [رایان‌پی](https://rayanpay.com/) :heavy_check_mark:
 - [سداد (ملی)](https://sadadpsp.ir/) :heavy_check_mark:
 - [سامان](https://www.sep.ir) :heavy_check_mark:
+- [سما](https://www.sama.ir) :heavy_check_mark:
 - [سپ (درگاه الکترونیک سامان) کشاورزی و صادرات](https://www.sep.ir) :heavy_check_mark:
 - [سپهر (صادرات)](https://www.sepehrpay.com/) :heavy_check_mark:
 - [سپرده](https://sepordeh.com/) :heavy_check_mark:
